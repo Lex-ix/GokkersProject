@@ -32,7 +32,19 @@
                 </ul>
             </div>
         </header>
-
+            <div class="main-content">
+                <div class="info">
+                    <h1>Our Game</h1>
+                    <div class="info-info">
+                        <div class="info-img">
+                            <img src="http://lorempixel.com/400/250/" alt="Game preview">
+                        </div>
+                        <div class="info-text">
+                            <span>Our game is all about winning or losing, In this game 5 Frilled Lizards race against eachother, and you get to bet on which one is going to win! You bet against 3 other players to see who has the best luck, and wits ;)  </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
