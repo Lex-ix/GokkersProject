@@ -20,7 +20,19 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <header>
+            <div class="logo">
+                <h1><span>Lizard</span><span>Race</span></h1>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="">Register</a></li>
+                    <li><a href="">Download</a></li>
+                    <li><a href="">About</a></li>
+                </ul>
+            </div>
+        </header>
+
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
