@@ -193,6 +193,27 @@ header li {
 
 */
 
+.download {
+    height: 300px;
+    margin: 0 auto; 
+    background-image: url(../img/background/background-main_content.png);
+    border-radius: 20px;
+    margin: 5px 25px;
+    color: #eee
+}
+
+.download h1 {
+    text-align: center;
+    line-height: 75px;
+    margin: 0;
+}
+
+.download h2 {
+    text-align: center;
+    line-height: 25px;
+    margin: 0;
+}
+
 .gokkers-download button {
     list-style-type: none;
     color: white;
@@ -201,6 +222,8 @@ header li {
     background: #5EBD5E;
     font-size: 25px;
     border-radius: 20px;
+    margin-left: 442px;
+    margin-top: 50px;
 }
 
 

@@ -52,11 +52,17 @@
         </div>
 
         <div class="main-content">
-            <div class="gokkers-download">
-                <a href="gokkers/gokkers.exe" download>
-            <button type="button" onclick="alert('Thanks for downloading')">Download</button>
-        </a>
-        </div>
+            <div class="download">
+                <div class="container">
+                    <h1>Download</h1>
+                    <h2>Lizard Race Version 0.1</h2>
+                    <div class="gokkers-download">
+                        <a href="gokkers/gokkers.exe" download>
+                            <button type="button" onclick="alert('Thanks for downloading')">Download</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
 
 
