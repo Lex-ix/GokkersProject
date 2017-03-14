@@ -104,9 +104,9 @@ textarea {
     margin: 0;
     padding: 0;
 }
-html {
+.container {
+    max-width: 1200px;
     margin: 0 auto;
-    width: 100%;
 }
 li {
     list-style: none;
@@ -125,6 +125,8 @@ a:hover {
 
 header {
     background: #031424;
+}
+header .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;

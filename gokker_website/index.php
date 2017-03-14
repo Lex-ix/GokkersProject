@@ -21,19 +21,23 @@
 
         <!-- Add your site or application content here -->
         <header>
-            <div class="logo">
-                <h1><span>Lizard</span><span>Race</span></h1>
-            </div>
-            <div class="nav">
-                <ul>
-                    <li><a href="">Register</a></li>
-                    <li><a href="">Download</a></li>
-                    <li><a href="">About</a></li>
-                </ul>
+            <div class="container">
+                <div class="logo">
+                    <h1><span>Lizard</span><span>Race</span></h1>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="">Register</a></li>
+                        <li><a href="">Download</a></li>
+                        <li><a href="">About</a></li>
+                    </ul>
+                </div>
             </div>
         </header>
-            <div class="main-content">
-                <div class="info">
+
+        <div class="main-content">
+            <div class="info">
+                <div class="container">
                     <h1>Our Game</h1>
                     <div class="info-info">
                         <div class="info-img">
@@ -45,6 +49,7 @@
                     </div>
                 </div>
             </div>
+        </div>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
