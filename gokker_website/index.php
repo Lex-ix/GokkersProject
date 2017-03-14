@@ -66,14 +66,6 @@
         </div>
 
         <div class="main-content">
-            <div class="gokkers-download">
-                <a href="gokkers/gokkers.exe" download>
-                    <button type="button" onclick="alert('Thanks for downloading')">Download</button>
-                </a>
-            </div>
-        </div>
-
-        <div class="main-content">
             <div class="container">
                 <form action="">
                     <div class="form-group">
