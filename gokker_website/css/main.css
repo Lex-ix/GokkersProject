@@ -130,15 +130,15 @@ header .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    color: #ddd
 }
 header h1 span {
     display: flex;
     font-size: 25px;
-    color: #eee;
 }
 header h1 {
-    margin: 2px;
-    margin-left: 6px;
+    line-height: 19px;
+    margin: 10px 2px;
 }
 header ul {
     display: flex;
