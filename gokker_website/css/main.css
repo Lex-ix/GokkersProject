@@ -169,6 +169,7 @@ header li {
 .info h1 {
     text-align: center;
     line-height: 75px;
+    margin: 0;
 }
 .info-img {
     margin-bottom: 50px;
