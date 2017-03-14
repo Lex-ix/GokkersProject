@@ -121,13 +121,16 @@ a {
 a:hover {
     text-decoration: underline;
 }
+img {
+    border-radius: 4px;
+}
 
 /*
     Header styling
  */
 
 header {
-    background: #30415d;
+    background-image: url(../img/background/background-header.png);
     border-radius: 20px;
     margin: 5px 10px;
 }
@@ -163,7 +166,7 @@ header li {
 .info {
     height: 350px;
     margin: 0 auto;
-    background-color: #8eaebd;
+    background-image: url(../img/background/background-main_content.png);
     border-radius: 20px;
     margin: 5px 25px;
     color: #eee
