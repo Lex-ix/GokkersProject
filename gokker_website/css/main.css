@@ -105,7 +105,7 @@ textarea {
     padding: 0;
 }
 html {
-    background: #CF6766;
+    background-image: url("../img/background/background-tiles.png");
 }
 .container {
     max-width: 1200px;
