@@ -51,6 +51,15 @@
             </div>
         </div>
 
+        <div class="main-content">
+            <div class="gokkers-download">
+                <a href="gokkers/gokkers.exe" download>
+            <button type="button" onclick="alert('Thanks for downloading')">Download</button>
+        </a>
+        </div>
+        </div>
+
+
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>

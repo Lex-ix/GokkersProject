@@ -188,7 +188,20 @@ header li {
     margin-bottom: 50px;
 }
 
+/*
+    Download Page Styling
 
+*/
+
+.gokkers-download button {
+    list-style-type: none;
+    color: white;
+    width: 300px;
+    height: 100px;
+    background: #5EBD5E;
+    font-size: 25px;
+    border-radius: 20px;
+}
 
 
 
