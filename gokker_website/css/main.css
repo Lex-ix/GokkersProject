@@ -104,6 +104,9 @@ textarea {
     margin: 0;
     padding: 0;
 }
+html {
+    background: #CF6766;
+}
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -124,13 +127,15 @@ a:hover {
  */
 
 header {
-    background: #031424;
+    background: #30415d;
+    border-radius: 20px;
+    margin: 5px 10px;
 }
 header .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: #ddd
+    color: #eee;
 }
 header h1 span {
     display: flex;
@@ -158,15 +163,18 @@ header li {
 .info {
     height: 350px;
     margin: 0 auto;
-    background-color: #cf7677;
+    background-color: #8eaebd;
+    border-radius: 20px;
+    margin: 5px 25px;
+    color: #eee
 }
 .info-info {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .info-text {
     line-height: 25px;
-    width: 200px;
+    width: 400px;
 }
 .info h1 {
     text-align: center;
