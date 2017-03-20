@@ -8,7 +8,7 @@ if (isset($_GET['email']) && !empty($_GET['email']) && filter_var($_GET['email']
     $dbHostname = 'localhost';
     $dbName = 'gokkers';
 
-    $dbHandle = new mysqli($dbHostname, $dbUser, $dbPassword, $dbName) or die('Unable to connect to MySQL');
+    $dbHandle = new mysqli($dbHostname, $dbUser, $dbPassword, $dbName) or die($message = "Unable to connect to the MySQL database.");
     echo 'connected to MySQL';
 
     $selected = mysqli_select_db($dbHandle, $dbName) or die("Could not select examples");

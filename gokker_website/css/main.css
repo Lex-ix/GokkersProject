@@ -195,7 +195,7 @@ header li {
 
 .download {
     height: 300px;
-    margin: 0 auto; 
+    margin: 0 auto;
     background-image: url(../img/background/background-main_content.png);
     border-radius: 20px;
     margin: 5px 25px;
@@ -226,6 +226,17 @@ header li {
     margin-top: 50px;
 }
 
+/*
+    Register page Styling
+ */
+
+.register {
+    background-image: url(../img/background/background-main_content.png);
+    border-radius: 20px;
+    margin: 5px 25px;
+    color: #eee;
+    padding: 10px;
+}
 
 
 
