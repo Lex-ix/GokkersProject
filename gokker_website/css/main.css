@@ -233,6 +233,10 @@ header li {
     margin-top: 50px;
 }
 
+.download p {
+    margin: 0 auto;
+}
+
 /*
     Register page Styling
  */
