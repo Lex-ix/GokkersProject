@@ -68,24 +68,48 @@
         <div class="main-content">
             <div class="register">
                 <div class="container">
-                    <?php
-                        if (isset($_GET['message'])) {
-                            echo "<p>{$_GET['message']}</p>";
-                        }
-                    ?>
-                    <form action="php/newUserHandler.php">
-                        <div class="form-group">
-                            <label for="usermail">E-mail:</label>
-                            <input type="email" name="email" id="usermail">
-                        </div>
-                        <div class="form-group">
-                            <label for="password">Password:</label>
-                            <input type="password" name="password" id="password">
-                        </div>
-                        <div class="form-group">
-                            <input class="submit" type="submit" value="Register">
-                        </div>
-                    </form>
+                    <div class="form-register">
+                        <h2>Register</h2>
+                        <?php
+                            if (isset($_GET['message'])) {
+                                echo "<p>{$_GET['message']}</p>";
+                            }
+                        ?>
+                        <form action="php/newUserHandler.php">
+                            <div class="form-group">
+                                <label for="usermail">E-mail:</label>
+                                <input type="email" name="email" id="usermail">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password:</label>
+                                <input type="password" name="password" id="password">
+                            </div>
+                            <div class="form-group">
+                                <input class="submit" type="submit" value="Register">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="form-login">
+                        <h2>Login</h2>
+                        <?php
+                            if (isset($_GET['messageLogin'])) {
+                                echo "<p>{$_GET['messageLogin']}</p>";
+                            }
+                        ?>
+                        <form action="php/loginHandler.php">
+                            <div class="form-group">
+                                <label for="usermail">E-mail:</label>
+                                <input type="email" name="email" id="usermail">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password:</label>
+                                <input type="password" name="password" id="password">
+                            </div>
+                            <div class="form-group">
+                                <input class="submit" type="submit" value="Login">
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
