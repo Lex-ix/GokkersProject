@@ -127,7 +127,7 @@ img {
 h1{
     color: #7E8F7C;
 }
-h2, a, p {
+h2, a, p, label {
     color: #3B3738;
 }
 
@@ -238,7 +238,7 @@ header li {
  */
 
 .register {
-    background-image: url(../img/background/background-main_content.png);
+    background-image: url(../img/background/background_divs.png);
     border-radius: 20px;
     margin: 5px 25px;
     color: #eee;
