@@ -105,7 +105,7 @@ textarea {
     padding: 0;
 }
 html {
-    background-image: url("../img/background/background-tiles.png");
+    background-image: url("../img/background/background_site.png");
 }
 .container {
     max-width: 1200px;
@@ -124,13 +124,20 @@ a:hover {
 img {
     border-radius: 4px;
 }
+h1{
+    color: #7E8F7C;
+}
+h2, a, p {
+    color: #3B3738;
+}
+
 
 /*
     Header styling
  */
 
 header {
-    background-image: url(../img/background/background-header.png);
+    background-image: url(../img/background/background_divs.png);
     border-radius: 20px;
     margin: 5px 10px;
 }
@@ -166,7 +173,7 @@ header li {
 .info {
     height: 350px;
     margin: 0 auto;
-    background-image: url(../img/background/background-main_content.png);
+    background-image: url(../img/background/background_divs.png);
     border-radius: 20px;
     margin: 5px 25px;
     color: #eee
@@ -195,8 +202,8 @@ header li {
 
 .download {
     height: 300px;
-    margin: 0 auto;
-    background-image: url(../img/background/background-main_content.png);
+    background-image: url(../img/background/background_divs.png);
+    margin: 0 auto; 
     border-radius: 20px;
     margin: 5px 25px;
     color: #eee
