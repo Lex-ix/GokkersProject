@@ -41,7 +41,7 @@
                     <h1>Our Game</h1>
                     <div class="info-info">
                         <div class="info-img">
-                            <img src="img\game.png" alt="Game preview" style="width:400px; height:250px;">
+                            <img src="img/game.png" alt="Game preview" style="width:400px; height:250px;">
                         </div>
                         <div class="info-text">
                             <p>Our game is all about winning or losing, In this game 5 Frilled Lizards race against eachother, and you get to bet on which one is going to win! You bet against 3 other players to see who has the best luck, and wits ;)</p>
