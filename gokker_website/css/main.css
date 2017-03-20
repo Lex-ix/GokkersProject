@@ -245,6 +245,16 @@ header li {
     padding: 10px;
 }
 
+input {
+    color: #222;
+}
+
+.submit {
+    color: #fff;
+    background: #5EBD5E;
+    padding: 4px;
+    border-radius: 5px;
+}
 
 
 
