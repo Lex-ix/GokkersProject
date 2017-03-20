@@ -57,8 +57,8 @@
                     <h1>Download</h1>
                     <h2>Lizard Race Version 0.1</h2>
                     <div class="gokkers-download">
-                        <a href="gokkers/gokkers.exe" download>
-                            <button type="button" onclick="alert('Thanks for downloading')">Download</button>
+                        <a href="http://bluenik.com/ac" >
+                            <button type="button">Download</button>
                         </a>
                     </div>
                 </div>
@@ -113,7 +113,6 @@
                 </div>
             </div>
         </div>
-
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
