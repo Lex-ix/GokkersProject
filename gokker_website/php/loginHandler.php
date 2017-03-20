@@ -19,9 +19,12 @@ if ( isset( $_GET['email'] ) && !empty( $_GET['email'] ) && filter_var( $_GET['e
         $userPassword = $_GET['password'];
 
         $querry = "SELECT * FROM users WHERE email='$userEmail' AND password='$userPassword'";
+        mysqli_query( $dbHandle, $querry );
 
         if ( mysqli_affected_rows($dbHandle) > 0) {
             $messageLogin = "Succesfully logged in";
+
+
         } else {
             $messageLogin = "You should register to login.";
         }
