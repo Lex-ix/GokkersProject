@@ -1,3 +1,16 @@
+<?php
+    session_start();
+
+    if ( isset($_SESSION['loginInformation']) ) {
+        if ( !$_SESSION['loginInformation'] ) {
+            $_SESSION['loginInformation'] = false;
+        }
+    }
+    else {
+        $_SESSION['loginInformation'] = false;
+    }
+?>
+
 <!doctype html>
 <html class="no-js" lang="">
     <head>
@@ -30,6 +43,11 @@
                         <li><a href="">Register</a></li>
                         <li><a href="">Download</a></li>
                         <li><a href="">About</a></li>
+                        <?php
+                            if ($_SESSION['loginInformation']) {
+                                echo '<li><a href="php/logoutHandler.php">Logout</a></li> ';
+                            }
+                        ?>
                     </ul>
                 </div>
             </div>
@@ -51,19 +69,37 @@
             </div>
         </div>
 
-        <div class="main-content">
-            <div class="download">
-                <div class="container">
-                    <h1>Download</h1>
-                    <h2>Lizard Race Version 0.1</h2>
-                    <div class="gokkers-download">
-                        <a href="http://bluenik.com/ac" >
-                            <button type="button">Download</button>
-                        </a>
+        <?php
+            if ( $_SESSION['loginInformation'] ) {
+                echo '
+                    <div class="main-content">
+                         <div class="download">
+                            <div class="container">
+                                <h1>Download</h1>
+                                <h2>Lizard Race Version 0.1</h2>
+                                <div class="gokkers-download">
+                                    <a href="http://bluenik.com/ac" >
+                                    <button type="button">Download</button>
+                                    </a>
+                                </div>
+                            </div>
+                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
+                ';
+            } else {
+                echo '
+                    <div class="main-content">
+                         <div class="download">
+                            <div class="container">
+                                <h1>Download</h1>
+                                <h2>Lizard Race Version 0.1</h2>
+                                <p>Please login to download</p>
+                            </div>
+                         </div>
+                    </div>
+                ';
+            }
+        ?>
 
         <div class="main-content">
             <div class="register">
