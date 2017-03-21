@@ -221,6 +221,12 @@ header li {
     margin: 0;
 }
 
+.download p {
+    text-align: center;
+    line-height: 75px;
+    margin: 0;
+}
+
 .gokkers-download button {
     list-style-type: none;
     color: white;
@@ -233,10 +239,6 @@ header li {
     margin-top: 50px;
 }
 
-.download p {
-    margin: 0 auto;
-}
-
 /*
     Register page Styling
  */
@@ -247,6 +249,43 @@ header li {
     margin: 5px 25px;
     color: #eee;
     padding: 10px;
+    height: 250px;
+}
+
+.register h1 {
+    text-align: center;
+    line-height: 75px;
+    margin: 0;
+}
+
+.form-group {
+    padding-bottom: 5px;
+}
+
+.form-register {
+    margin-right: 50px;
+}
+
+.form-register input {
+    float: right;
+}
+
+.form-login input {
+    float: right;
+}
+
+.form-login {
+    margin-left: 50px;
+} 
+
+.form-register-login {
+    margin: 0 auto;
+    justify-content: space-around;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
 }
 
 input {
@@ -262,7 +301,7 @@ input {
 
 .register .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
 }
 
