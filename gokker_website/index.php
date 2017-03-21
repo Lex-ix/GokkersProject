@@ -78,7 +78,7 @@
                                 <h1>Download</h1>
                                 <h2>Lizard Race Version 0.1</h2>
                                 <div class="gokkers-download">
-                                    <a href="http://bluenik.com/ac" >
+                                    <a href="http://bluenik.com/2yk" >
                                     <button type="button">Download</button>
                                     </a>
                                 </div>
