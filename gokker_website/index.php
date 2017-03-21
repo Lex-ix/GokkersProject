@@ -69,7 +69,6 @@
             </div>
         </div>
 
-<<<<<<< Updated upstream
         <?php
             if ( $_SESSION['loginInformation'] ) {
                 echo '
@@ -85,18 +84,6 @@
                                 </div>
                             </div>
                          </div>
-=======
-        <div class="main-content">
-            <div class="download">
-                <div class="container">
-                    <h1>Download</h1>
-                    <h2>Lizard Race Version 0.1</h2>
-                    <div class="gokkers-download">
-                        <a href="http://bluenik.com/ac" >
-                            <button type="button">Download</button>
-                        <a href="gokkers/gokkers.exe" download>
-                        </a>
->>>>>>> Stashed changes
                     </div>
                 ';
             } else {

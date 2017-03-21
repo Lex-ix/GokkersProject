@@ -105,7 +105,7 @@ textarea {
     padding: 0;
 }
 html {
-    background-image: url("../img/background/background-tiles.png");
+    background-image: url("../img/background/background_site.png");
 }
 .container {
     max-width: 1200px;
@@ -124,13 +124,20 @@ a:hover {
 img {
     border-radius: 4px;
 }
+h1{
+    color: #7E8F7C;
+}
+h2, a, p, label {
+    color: #3B3738;
+}
+
 
 /*
     Header styling
  */
 
 header {
-    background-image: url(../img/background/background-header.png);
+    background-image: url(../img/background/background_divs.png);
     border-radius: 20px;
     margin: 5px 10px;
 }
@@ -166,7 +173,7 @@ header li {
 .info {
     height: 350px;
     margin: 0 auto;
-    background-image: url(../img/background/background-main_content.png);
+    background-image: url(../img/background/background_divs.png);
     border-radius: 20px;
     margin: 5px 25px;
     color: #eee
@@ -195,8 +202,8 @@ header li {
 
 .download {
     height: 300px;
+    background-image: url(../img/background/background_divs.png);
     margin: 0 auto; 
-    background-image: url(../img/background/background-main_content.png);
     border-radius: 20px;
     margin: 5px 25px;
     color: #eee
@@ -214,29 +221,44 @@ header li {
     margin: 0;
 }
 
-.gokkers-download {
-    margin: 0 auto;
-    width: 300px;
-    margin-top: 30px;
-}
-
 .gokkers-download button {
     list-style-type: none;
-    text-align: center;
-    margin: 0 auto;
-    line-height: 75px;
     color: white;
     width: 300px;
     height: 100px;
     background: #5EBD5E;
     font-size: 25px;
     border-radius: 20px;
+    margin-left: 442px;
+    margin-top: 50px;
+}
+
+.download p {
+    margin: 0 auto;
 }
 
 /*
     Register page Styling
  */
 
+.register {
+    background-image: url(../img/background/background_divs.png);
+    border-radius: 20px;
+    margin: 5px 25px;
+    color: #eee;
+    padding: 10px;
+}
+
+input {
+    color: #222;
+}
+
+.submit {
+    color: #fff;
+    background: #5EBD5E;
+    padding: 4px;
+    border-radius: 5px;
+}
 
 .register .container {
     display: flex;
