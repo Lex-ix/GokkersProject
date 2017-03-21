@@ -130,8 +130,8 @@
                         <div class="form-login">
                             <h2>Login</h2>
                             <?php
-                                if (isset($_GET['messageLogin'])) {
-                                    echo "<p>{$_GET['messageLogin']}</p>";
+                                if (isset($_SESSION['messageLogin'])) {
+                                    echo "<p>{$_SESSION['messageLogin']}</p>";
                                 }
                             ?>
                             <form action="php/loginHandler.php">

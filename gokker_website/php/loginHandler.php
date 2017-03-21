@@ -28,16 +28,16 @@ if ( isset( $_GET['email'] ) && !empty( $_GET['email'] ) && filter_var( $_GET['e
 
         if ( mysqli_affected_rows($dbHandle) > 0) {
             $_SESSION['loginInformation'] = true;
-            $messageLogin = "Succesfully logged in";
+            $_SESSION['messageLogin'] = "Succesfully logged in";
         } else {
-            $messageLogin = "You should register to login.";
+            $_SESSION['messageLogin'] = "You should register to login.";
         }
     } else {
-        $messageLogin = "This isn't a valid password";
+        $_SESSION['messageLogin'] = "This isn't a valid password";
     }
 } else {
-    $messageLogin = "This isn't a valid email.";
+    $_SESSION['messageLogin'] = "This isn't a valid email.";
 }
 
-header("Location: ../index.php?messageLogin=$messageLogin");
+header("Location: ../index.php");
 exit();
