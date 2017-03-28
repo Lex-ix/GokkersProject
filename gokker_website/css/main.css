@@ -285,8 +285,8 @@ header li {
     margin: 0;
 
 }
-
 .info-img img {
+    padding-bottom: 20px;
     margin: 10px;
     max-width: 400px;
 }
